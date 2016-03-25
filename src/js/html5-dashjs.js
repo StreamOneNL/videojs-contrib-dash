@@ -42,6 +42,7 @@ class Html5DashJS {
 
     // Initialize the media player with the element and autoplay settings
     this.mediaPlayer_.initialize();
+    this.mediaPlayer_.setLimitBitrateByPortal(true);
     this.mediaPlayer_.attachView(this.el_);
 
     // Dash.js autoplays by default
